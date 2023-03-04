@@ -1,0 +1,9 @@
+spring:
+  h2.console:
+    enabled: true
+    path: '/console'
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: 'jdbc:h2:file:/home/benhauer-dev/IdeaProjects/todo-app/todo-db'
